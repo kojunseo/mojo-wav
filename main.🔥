@@ -1,0 +1,9 @@
+from mowav.audio import read_audio
+
+fn main():
+    try:
+        print(read_audio("test.wav"))
+    except e:
+        print("Error: ", e)
+    
+
